@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="main">
+        <div class="player  ">
+            <!-- information -->
+            <div class="ifo">
+                <div class="avatar-song image">
+                </div>
+                <div class="ifo-name">
+                    <h2 class="name-song" > Song Title</h2>
+                    <h3 class="name-artist"> Artist Name</h3>
+                </div>
+            </div>
+            
+           
+            <!-- control -->
+            <div class="progress-song">
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                <div class="time-song">
+                    <h4 class="time-current">0.00</h4>
+                    <h4 class="time-end">0.00</h4>
+                </div>
+            </div>
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="ti-reload"></i> 
+                </div>
+                <div class="btn btn-prev">
+                    <i class="ti-control-backward"></i> 
+                </div>
+                <div class="btn btn-toggle">
+                    <div class="btn btn-play">
+                        <i class="ti-control-play"></i> 
+                    </div>
+                    <div class="btn btn-pause hidden">
+                        <i class="ti-control-pause"></i> 
+                    </div>
+                </div>
+                <div class="btn btn-next">
+                    <i class="ti-control-forward"></i> 
+                </div>
+                <div class="btn btn-random">
+                    <i class="ti-control-shuffle"></i> 
+                </div>
+            </div>
+
+            <div class="btn btn-playlist">
+                <i class="ti-list"></i>
+            </div>
+        </div>
+
+        <!-- playlist -->
+        <div class="playlist hidden">
+            
+            <div class="slider image">
+                <div class="btn btn-back">
+                    <i class="ti-angle-left"></i>
+                </div>
+                <h2 class="name-artist"> Artist Name</h2>
+            </div>
+
+            <div class="list-song">
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image "></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image"></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image"></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image"></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image"></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+                <div class="song">
+                    <h2 class="serial-song">1</h2>
+                    <div class="avatar-song image"></div>
+                    <div class="ifo-song">
+                        <h3 class="name-song">song title</h3>
+                        <h4 class="view-song">1000000</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio id="audio" src=""></audio>
+    </div>
+    <script src="./handles.js"></script>
+</body>
+</html>
